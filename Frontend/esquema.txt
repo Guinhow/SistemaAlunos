@@ -1,0 +1,76 @@
+[Administrador] ---> (Criar Turma)
+[Administrador] ---> (Matricular Aluno)
+     └─> Gera Contrato
+         └─> Gera Parcelas
+         └─> Atualiza status do aluno: "ativo"
+
+[Administrador] ---> (Registrar Pagamento)
+[Administrador] ---> (Visualizar Situação Financeira)
+[Administrador] ---> (Inativar aluno / Encerrar contrato)
+
+Entidades:
+
+Aluno:
+id
+
+nome
+
+cpf
+
+nascimento
+
+telefone
+
+email
+
+status → "ativo" / "inativo" (baseado na associação com uma turma)
+
+turma_id (nullable)
+
+
+Turma:
+id
+
+nome
+
+horario
+
+dias_semana
+
+nivel (ex: básico, intermediário)
+
+professor (opcional, para futuro)
+
+
+Contrato:
+id
+
+aluno_id (relacionado ao aluno)
+
+turma_id
+
+data_inicio
+
+data_fim
+
+status → "ativo" / "encerrado"
+
+valor_total
+
+parcelas →  6 (semestre)
+
+
+Pagamento:
+id
+
+contrato_id
+
+numero_parcela (1 a 6)
+
+valor
+
+vencimento
+
+data_pagamento (null se não pago)
+
+status → "pago" / "pendente"

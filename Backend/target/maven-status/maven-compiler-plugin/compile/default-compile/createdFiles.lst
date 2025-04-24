@@ -1,0 +1,16 @@
+com\seuprojeto\gestaoalunos\controller\TurmaController.class
+com\seuprojeto\gestaoalunos\controller\ContratoController.class
+com\seuprojeto\gestaoalunos\repository\ContratoRepository.class
+com\seuprojeto\gestaoalunos\model\Usuario.class
+com\seuprojeto\gestaoalunos\model\Pagamento.class
+com\seuprojeto\gestaoalunos\repository\UsuarioRepository.class
+com\seuprojeto\gestaoalunos\model\Contrato.class
+com\seuprojeto\gestaoalunos\repository\PagamentoRepository.class
+com\seuprojeto\gestaoalunos\repository\TurmaRepository.class
+com\seuprojeto\gestaoalunos\controller\PagamentoController.class
+com\seuprojeto\gestaoalunos\controller\AlunoController.class
+com\seuprojeto\gestaoalunos\controller\UsuarioController.class
+com\seuprojeto\gestaoalunos\model\Aluno.class
+com\seuprojeto\gestaoalunos\GestaoAlunosApplication.class
+com\seuprojeto\gestaoalunos\model\Turma.class
+com\seuprojeto\gestaoalunos\repository\AlunoRepository.class
